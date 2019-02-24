@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program", "MMORPG\Program.csproj", "{501793BB-B80D-431F-B457-A0A43B580608}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Character", "Character\Character.csproj", "{9198FEA4-AEFF-430B-8BF1-1DC116460F97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{501793BB-B80D-431F-B457-A0A43B580608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{501793BB-B80D-431F-B457-A0A43B580608}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{501793BB-B80D-431F-B457-A0A43B580608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{501793BB-B80D-431F-B457-A0A43B580608}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9198FEA4-AEFF-430B-8BF1-1DC116460F97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9198FEA4-AEFF-430B-8BF1-1DC116460F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9198FEA4-AEFF-430B-8BF1-1DC116460F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9198FEA4-AEFF-430B-8BF1-1DC116460F97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30C2AE4C-A104-456E-979A-D451FF22AE35}
+	EndGlobalSection
+EndGlobal

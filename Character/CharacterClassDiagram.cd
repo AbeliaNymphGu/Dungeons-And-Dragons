@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Race.Character">
+    <Position X="5" Y="10.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAABAAAAAgAAAAAgAEAAAAEAAAAAAAAAAAEIAA=</HashCode>
+      <FileName>Character.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="name" />
+      <Field Name="gender" />
+      <Field Name="race" />
+      <Field Name="profession" />
+      <Field Name="determineAbilityScores" />
+      <Field Name="ideals" />
+      <Field Name="bonds" />
+      <Field Name="flaws" />
+      <Field Name="background" />
+      <Field Name="equipment" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Race.Name">
+    <Position X="3" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAEAAAAAEAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Name.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Race.Profession">
+    <Position X="2" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Profession.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Race.Ideal" Collapsed="true">
+    <Position X="9" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ideal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Race.Flaw">
+    <Position X="3" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Flaw.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Race.Equipment">
+    <Position X="6" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Equipment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Race.DetermineAbility">
+    <Position X="9.75" Y="10.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAIACAAAAAgAAAAEAAAABAABBAAAAYQAAACAAAACA=</HashCode>
+      <FileName>DetermineAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Race.Bond">
+    <Position X="3" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bond.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Race.Background">
+    <Position X="6" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Background.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Race.Race">
+    <Position X="12.25" Y="5.25" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Race.Race.Elf">
+        <TypeIdentifier>
+          <NewMemberFileName>Race.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Race.Race.MountainDwarf">
+        <TypeIdentifier>
+          <NewMemberFileName>Race.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Race.Race.Halfling">
+        <TypeIdentifier>
+          <NewMemberFileName>Race.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Race.Race.Dwarf">
+        <TypeIdentifier>
+          <NewMemberFileName>Race.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Race.Race.WoodElf">
+        <TypeIdentifier>
+          <NewMemberFileName>Race.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Race.Race.Lightfoot">
+        <TypeIdentifier>
+          <NewMemberFileName>Race.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Race.Race.HillDwarf">
+        <TypeIdentifier>
+          <NewMemberFileName>Race.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Race.Race.Stout">
+        <TypeIdentifier>
+          <NewMemberFileName>Race.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Race.Race.HighElf">
+        <TypeIdentifier>
+          <NewMemberFileName>Race.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Race.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Character.Modifiers" Collapsed="true">
+    <Position X="25.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAgAAAAAAAAABAAAAAAAAYQAAAAAAAAAA=</HashCode>
+      <FileName>Modifiers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Character.DwarfRacialTraits">
+    <Position X="3" Y="4" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RacialTraitsOfDwarf.cs</FileName>
+      <NewMemberFileName>RacialTraits.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Character.Alignment">
+    <Position X="17.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Alignment.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="type" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Character.Age" Collapsed="true">
+    <Position X="25.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAQAJAAAAAAAAAAAEA=</HashCode>
+      <FileName>Age.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Character.AbilityScoreIncreace" Collapsed="true">
+    <Position X="23.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIACAAAAAgAAAAEAAAABAABBAAAAYQAAACAAAACA=</HashCode>
+      <FileName>AbilityScoreIncreace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Character.Size">
+    <Position X="17.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAABAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Size.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="height" />
+      <Field Name="weight" />
+      <Field Name="type" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Character.Speed">
+    <Position X="11.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Speed.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="walk" />
+      <Field Name="run" />
+      <Field Name="Rush" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Character.Height">
+    <Position X="20" Y="5.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAACAAAAAAAAAAAAAAAAAAAAAAIAAIAAAAA=</HashCode>
+      <FileName>Height.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Character.Weight">
+    <Position X="17.5" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAgAAAAAAAAAABAAAgAAA=</HashCode>
+      <FileName>Weight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Character.Walk">
+    <Position X="14.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Walk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Character.Run">
+    <Position X="9.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Run.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Character.Rush">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rush.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Character.LanguagesAbility" Collapsed="true">
+    <Position X="23.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAIAACAAAAAAIA=</HashCode>
+      <FileName>Ability.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Character.Language">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Language.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Character.CommonLanguage">
+    <Position X="0.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CommonLanguage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Character.RacialTraits">
+    <Position X="3.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAgAAKAAAAAAAAAAAQAAAAAACAAAAAA=</HashCode>
+      <FileName>RacialTraits.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Character.ElfRacialTraits">
+    <Position X="7" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ElfRacialTraits.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Character.RalflingRacialTraits">
+    <Position X="0.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RalflingRacialTraits.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Character.SizeType">
+    <Position X="17.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAQAAgA=</HashCode>
+      <FileName>SizeType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Race.Gender">
+    <Position X="6" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Gender.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Character.AligmentType">
+    <Position X="17.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AlligmentType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
